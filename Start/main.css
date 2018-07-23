@@ -399,10 +399,10 @@ footer a {
   }
 
   .nav{
-    width: 200px;
+    width: 20.5em;
     height: 100%;
     position: absolute;
-    transform: translate(-200px, 0);
+    transform: translate(-20.5em, 0);
     transition: transform 0.3s ease;
     z-index: 999;
     background-color: white;

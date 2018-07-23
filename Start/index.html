@@ -184,9 +184,11 @@
       let drawer = document.querySelector('#drawer');
       let main = document.querySelector('main')
       menu.addEventListener('click', function(e){
-        console.log('I have been clicked!');
         drawer.classList.toggle('open');
         e.stopPropagation();
+      });
+      main.addEventListener('click', function(e){
+        drawer.classList.remove('open');
       });
     </script>
   </body>
