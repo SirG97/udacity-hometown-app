@@ -376,3 +376,45 @@ footer a {
   color: #333;
   padding: 1.5em;
 }
+
+
+@media screen and (min-width: 320px){
+
+  .header__logo{
+    height: 45px;
+    margin: 0.5em 0.3em;
+  }
+  
+  .header__title{
+    font-size: 1.5em;
+    margin: 1em 0.2em;
+  }
+
+  .menu-icon-bar{
+  
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    padding: 0.7em 0.5em;
+  }
+
+  .nav{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    transform: translate(-200px, 0);
+    transition: transform 0.3s ease;
+    z-index: 999;
+    background-color: white;
+
+  }
+  
+  nav.open{
+    transform: translate(0, 0);
+  }
+
+  .nav__list li{
+    display: block;
+  }
+  
+}
