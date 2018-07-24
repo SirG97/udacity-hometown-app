@@ -418,3 +418,14 @@ footer a {
   }
   
 }
+
+@media screen and (min-width: 550px){
+  .nav{
+    position: relative;
+  }
+
+  .nav__list li{
+    display: inline-block;
+  }
+  
+}
